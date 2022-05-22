@@ -1,0 +1,13 @@
+{
+    "restable": "rs",
+    "ignore" :[".git", "node_modules", "dist", "coverage/"],
+    "watch" :["src/"],
+    "execMAp": {
+        "ts": "node -r ts-node/register"
+    },
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js, json, ts",
+    "exec": "ts-node ./src/server.ts" 
+}
